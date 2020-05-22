@@ -15,6 +15,7 @@ html {
   justify-content: center;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 .main {
@@ -23,12 +24,18 @@ html {
   border-radius: 16px;
   padding: 16px;
   margin: 32px;
+  
 }
 
 .person {
+    display: flex;
+    align-items: flex-start;
+
 }
 
 .person__avatar {
+    margin-right: 32px;
+    
 }
 
 .person__name {
